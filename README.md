@@ -83,35 +83,5 @@ npm run format
 npm run format:check
 ```
 
-## GitFlow acadêmico
-Branches mínimas:
-- `main`
-- `develop`
-- `feat/autores`
-- `feat/livros`
-- `feat/clientes`
-- `feat/emprestimos`
-- `docs/readme`
 
-Exemplos de commits semânticos:
-- `feat: cria estrutura inicial do projeto`
-- `feat: implementa cadastro de autores`
-- `feat: implementa gerenciamento de livros`
-- `feat: adiciona cadastro de clientes`
-- `feat: implementa empréstimos de livros`
-- `feat: cria relatórios utilizando JOIN`
-- `fix: corrige validação de empréstimos`
-- `refactor: reorganiza camada de serviços`
-- `docs: atualiza README`
-- `style: aplica padronização do código`
 
-Para o projeto individual, mantenha pelo menos 12 commits que demonstrem a evolução real do desenvolvimento.
-
-## Entrega
-O repositório deve conter código-fonte, histórico de commits, branches, README, scripts SQL e demais arquivos necessários para executar a aplicação. Também deve ser produzido o vídeo de apresentação solicitado no enunciado.
-
-## Integrantes
-Preencha aqui os integrantes da equipe.
-
-## Kanban
-Preencha aqui o link do quadro Kanban.
