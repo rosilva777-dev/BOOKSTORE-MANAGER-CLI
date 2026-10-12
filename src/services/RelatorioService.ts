@@ -1,0 +1,2 @@
+import { RelatorioRepository } from '../repositories/RelatorioRepository'; 
+export class RelatorioService {constructor(private repo=new RelatorioRepository()){} livrosDisponiveis(){return this.repo.livrosDisponiveis()} livrosEmprestados(){return this.repo.livrosEmprestados()} livrosPorAutor(){return this.repo.livrosPorAutor()} emprestimosPorLivro(){return this.repo.emprestimosPorLivro()} clientesAtivos(){return this.repo.clientesAtivos()}}
