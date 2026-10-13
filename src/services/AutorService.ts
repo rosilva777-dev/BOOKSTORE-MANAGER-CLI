@@ -1,0 +1,2 @@
+import { Autor } from '../models/Autor'; import { AutorRepository } from '../repositories/AutorRepository';
+export class AutorService { constructor(private repository=new AutorRepository()){} criar(a:Autor){return this.repository.criar(a)} listar(){return this.repository.listar()} buscarPorId(id:number){return this.repository.buscarPorId(id)} atualizar(a:Autor){return this.repository.atualizar(a)} remover(id:number){return this.repository.remover(id)} }
