@@ -1,0 +1,2 @@
+import { Cliente } from '../models/Cliente'; import { ClienteRepository } from '../repositories/ClienteRepository';
+export class ClienteService { constructor(private repository=new ClienteRepository()){} criar(c:Cliente){return this.repository.criar(c)} listar(){return this.repository.listar()} buscarPorId(id:number){return this.repository.buscarPorId(id)} atualizar(c:Cliente){return this.repository.atualizar(c)} remover(id:number){return this.repository.remover(id)} }
